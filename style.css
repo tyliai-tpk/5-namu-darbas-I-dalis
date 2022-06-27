@@ -1,0 +1,96 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    color: rgb(42, 42, 42);
+}
+
+main {
+    max-width: 1280px;
+    margin:auto;
+}
+
+.banner-container {
+    margin-top:50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    width:50%;
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+.title-container h1 {
+    font-weight:900;
+    font-size:45px;
+}
+
+.title-container {
+    width:50%;
+}
+
+.title-container a {
+    font-weight:900;
+    background:yellow;
+
+    /* top right bottom left */
+    /* padding: 15px 75px 15px 75px; */
+    
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 75px;
+    padding-right: 75px; 
+}
+
+.title-container p {
+    padding-bottom: 30px;
+}
+
+a {
+    /* nuimame numatyta nuorodos formatavimas */
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    text-transform: uppercase;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    text-transform: uppercase;
+}
+
+a:hover {
+    color:rgb(167, 164, 164);
+    /* ryskumas */
+    opacity: 0.5;
+}
+
+
+.logo img {
+    max-width: 64px;
+}
+
+.top-container {
+    display:flex;
+    justify-content: space-between;
+    /* automatiskai parenka parastes is kaires ir desines puses */
+    margin: 0 auto;
+    /* svetaines iscentravimas su margin auto ir maksimaliu plociu */
+    max-width: 1280px;
+    background: #fff;
+}
+
+.navigation {
+    display:inline-block;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right:30px;
+}
+.navigation ul li:last-child {
+    margin-right:0;
+}
