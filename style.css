@@ -68,7 +68,6 @@ a:hover {
     opacity: 0.5;
 }
 
-
 .logo img {
     max-width: 64px;
 }
@@ -93,4 +92,21 @@ a:hover {
 }
 .navigation ul li:last-child {
     margin-right:0;
+}
+
+.article-container {
+    display: flex;
+}
+
+.article-container img {
+    max-width: 100%;
+}
+
+.block-container {
+    padding-right: 25px;
+}
+
+.date {
+    font-size: 0.7em;
+    color: lightgrey;
 }
